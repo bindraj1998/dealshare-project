@@ -1,0 +1,71 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.children{
+    /* border: 1px solid grey; */
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 25px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 5px;
+    /* height: 400px; */
+}
+.img{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    margin: 13px;
+
+}
+.buybutton{
+    width: 80%;
+    height: 40px;
+    color: black;
+    background-color: #1ed61e;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+    
+    padding-top: 8px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-style:unset;
+}
+.addbutton{
+    width: 80%;
+    padding-top: 8px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid grey;
+    color:black;
+    margin-left: 20px;
+}
+.price{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.name{
+    margin-left: 8%;
+    margin-bottom: 10%;
+    /* border: 1px solid red; */
+text-align: start;
+}
+.price1{
+    color: red;
+}
+.price2{
+    color:black;
+    text-decoration: line-through;
+}
+.morgin{
+    margin-bottom: 5px;
+}
